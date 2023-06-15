@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FormulasForPhysics</string>
+    <string name="select_a_class_text">Выбирете класс!</string>
+    <string name="class_7">7 класс</string>
+    <string name="class_8">8 класс</string>
+    <string name="class_9">9 класс</string>
+    <string name="back7text">назад</string>
+    <string name="back8text">назад</string>
+    <string name="back9text">назад</string>
+    <string name="formula_7_class_text">формулы</string>
+    <string name="laws_of_physics_text7">законы физики</string>
+    <string name="formula_8_class_text">формулы</string>
+    <string name="laws_of_physics_text8">законы физики</string>
+    <string name="formula_9_class_text">формулы</string>
+    <string name="laws_of_physics_text9">законы физики</string>
+    <string name="choice8class_text">Выбирете раздел 8 класса который вас интересует</string>
+    <string name="choice7class_text">Выбирете раздел 7 класса который вас интересует</string>
+    <string name="choice9class_text">Выбирете раздел 9 класса который вас интересует</string>
+    <string name="formula71">formula 1</string>
+    <string name="formula72">formula 2</string>
+    <string name="formula73">formula 3</string>
+    <string name="formula74">formula 4</string>
+    <string name="formula75">formula 5</string>
+</resources>
