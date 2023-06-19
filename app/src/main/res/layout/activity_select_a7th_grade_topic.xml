@@ -34,6 +34,7 @@
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:text="@string/laws_of_physics_text7"
+        android:onClick="goLawsOfPhysic"
         app:layout_constraintBottom_toTopOf="@id/back7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

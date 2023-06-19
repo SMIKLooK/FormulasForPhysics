@@ -16,6 +16,11 @@ class SelectA7thGradeTopic : AppCompatActivity() {
         startActivity(goFormulas7classIntent)
     }
 
+    fun goLawsOfPhysic(view: View){
+        val goLawsOfPhysicIntent = Intent(this, LawsOfPhysics7::class.java)
+        startActivity(goLawsOfPhysicIntent)
+    }
+
     fun backMain7(view: View){
         val backMain7Intent = Intent(this, MainActivity::class.java)
         startActivity(backMain7Intent)

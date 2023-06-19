@@ -12,6 +12,9 @@
         android:theme="@style/Theme.FormulasForPhysics"
         tools:targetApi="31">
         <activity
+            android:name=".LawsOfPhysics7"
+            android:exported="false" />
+        <activity
             android:name=".Class9Formulas"
             android:exported="false" />
         <activity
