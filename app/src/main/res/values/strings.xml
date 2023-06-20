@@ -16,9 +16,10 @@
     <string name="choice8class_text">Выбирете раздел 8 класса который вас интересует</string>
     <string name="choice7class_text">Выбирете раздел 7 класса который вас интересует</string>
     <string name="choice9class_text">Выбирете раздел 9 класса который вас интересует</string>
-    <string name="formula71">formula 1</string>
-    <string name="formula72">formula 2</string>
-    <string name="formula73">formula 3</string>
-    <string name="formula74">formula 4</string>
-    <string name="formula75">formula 5</string>
+    <string name="formula70t">formula 1</string>
+    <string name="formula71t">formula 2</string>
+    <string name="formula72t">formula 3</string>
+    <string name="formula73t">formula 4</string>
+    <string name="formula74t">formula 5</string>
+
 </resources>

@@ -11,9 +11,9 @@ class Class8Formulas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class8_formulas)
 
-        val myDataset8 = Datasource8().loadFormulas8()
+        //val myDataset8 = Datasource8().loadFormulas8()
 
-        val recyclerView8 = findViewById<RecyclerView>(R.id.recycler_view8)
-        recyclerView8.adapter = ItemAdapter8(this, myDataset8)
+        //val recyclerView8 = findViewById<RecyclerView>(R.id.recycler_view8)
+        //recyclerView8.adapter = ItemAdapter8(this, myDataset8)
     }
 }

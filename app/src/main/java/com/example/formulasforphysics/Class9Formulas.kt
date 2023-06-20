@@ -11,9 +11,9 @@ class Class9Formulas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class9_formulas)
 
-        val myDataset9 = Datasource9().loadFormulas9()
+        //val myDataset9 = Datasource9().loadFormulas9()
 
-        val recyclerView9 = findViewById<RecyclerView>(R.id.recycler_view9)
-        recyclerView9.adapter = ItemAdapter9(this, myDataset9)
+        //val recyclerView9 = findViewById<RecyclerView>(R.id.recycler_view9)
+        //recyclerView9.adapter = ItemAdapter9(this, myDataset9)
     }
 }

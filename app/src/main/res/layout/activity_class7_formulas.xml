@@ -6,11 +6,122 @@
     android:layout_height="match_parent"
     tools:context=".Class7Formulas">
 
-     <androidx.recyclerview.widget.RecyclerView
+     <!--<androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />-->
 
+     <ScrollView
+         android:id="@+id/horizon_Scroll_View7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:stretchColumns="160"
+         android:fillViewport="true"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+               <com.zanvent.mathview.MathView
+                   android:id="@+id/math_view70"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintBottom_toTopOf="@id/text_view70"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+               <TextView
+                   android:id="@+id/text_view70"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/formula70t"
+                   app:layout_constraintTop_toBottomOf="@id/math_view70"
+                   app:layout_constraintBottom_toTopOf="@id/math_view71"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <com.zanvent.mathview.MathView
+                   android:id="@+id/math_view71"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintTop_toBottomOf="@id/text_view70"
+                   app:layout_constraintBottom_toTopOf="@id/text_view71"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <TextView
+                   android:id="@+id/text_view71"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/formula71t"
+                   app:layout_constraintTop_toBottomOf="@id/math_view71"
+                   app:layout_constraintBottom_toTopOf="@id/math_view72"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <com.zanvent.mathview.MathView
+                   android:id="@+id/math_view72"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintTop_toBottomOf="@id/text_view71"
+                   app:layout_constraintBottom_toTopOf="@id/text_view72"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <TextView
+                   android:id="@+id/text_view72"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/formula72t"
+                   app:layout_constraintTop_toBottomOf="@id/math_view72"
+                   app:layout_constraintBottom_toTopOf="@id/math_view73"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <com.zanvent.mathview.MathView
+                   android:id="@+id/math_view73"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintTop_toBottomOf="@id/text_view72"
+                   app:layout_constraintBottom_toTopOf="@id/text_view73"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <TextView
+                   android:id="@+id/text_view73"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/formula73t"
+                   app:layout_constraintTop_toBottomOf="@id/math_view73"
+                   app:layout_constraintBottom_toTopOf="@id/math_view74"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <com.zanvent.mathview.MathView
+                   android:id="@+id/math_view74"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:layout_constraintTop_toBottomOf="@id/text_view73"
+                   app:layout_constraintBottom_toTopOf="@id/text_view74"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+               <TextView
+                   android:id="@+id/text_view74"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/formula74t"
+                   app:layout_constraintTop_toBottomOf="@id/math_view74"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent" />
+
+          </LinearLayout>
+     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
