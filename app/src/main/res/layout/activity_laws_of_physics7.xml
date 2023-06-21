@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".LawsOfPhysics7">
 
-    <com.zanvent.mathview.MathView
-        android:id="@+id/mathview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

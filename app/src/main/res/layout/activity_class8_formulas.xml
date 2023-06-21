@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Class8Formulas">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view8"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        app:layoutManager="LinearLayoutManager"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
