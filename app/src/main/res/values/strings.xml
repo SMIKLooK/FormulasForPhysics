@@ -8,11 +8,11 @@
     <string name="back8text">назад</string>
     <string name="back9text">назад</string>
     <string name="formula_7_class_text">формулы</string>
-    <string name="laws_of_physics_text7">законы физики</string>
+    <string name="laws_of_physics_text7">законы</string>
     <string name="formula_8_class_text">формулы</string>
-    <string name="laws_of_physics_text8">законы физики</string>
+    <string name="laws_of_physics_text8">законы</string>
     <string name="formula_9_class_text">формулы</string>
-    <string name="laws_of_physics_text9">законы физики</string>
+    <string name="laws_of_physics_text9">законы</string>
     <string name="choice8class_text">Выбирете раздел 8 класса который вас интересует</string>
     <string name="choice7class_text">Выбирете раздел 7 класса который вас интересует</string>
     <string name="choice9class_text">Выбирете раздел 9 класса который вас интересует</string>
@@ -30,5 +30,18 @@
     <string name="formula711t">formula 12</string>
     <string name="formula712t">formula 13</string>
     <string name="formula713t">formula 14</string>
-
+    <string name="formula70">$v=S/t$</string>
+    <string name="formula71">$p=m/V$</string>
+    <string name="formula72">$F_{тяж}=mg$</string>
+    <string name="formula73">$F_{упр}=kx$</string>
+    <string name="formula74">$p=F/S$</string>
+    <string name="formula75">$F_А=pgV$</string>
+    <string name="formula76">$F_{тр}=μN=μmg$</string>
+    <string name="formula77">$p=p_{п.ж.}gh$</string>
+    <string name="formula78">$A=FS$</string>
+    <string name="formula79">$N=A/t$</string>
+    <string name="formula710">$F_{1}/F_2=l_2/l_{1}$</string>
+    <string name="formula711">$M=Fl$</string>
+    <string name="formula712">$η=A_п/A_з100%$</string>
+    <string name="formula713">$E_п=mgh; E_к={mv^2}/2$</string>
 </resources>

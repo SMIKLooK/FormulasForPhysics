@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula70t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula71t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula72t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula73t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula74t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula75t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula76t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula77t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula78t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula79t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view710"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view710"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula710t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view711"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view711"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula711t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view712"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view712"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula712t"/>
+
+    <com.zanvent.mathview.MathView
+        android:id="@+id/math_view713"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view713"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formula713t"/>
+</LinearLayout>
