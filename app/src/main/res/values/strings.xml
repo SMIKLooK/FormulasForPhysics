@@ -16,6 +16,7 @@
     <string name="choice8class_text">Выбирете раздел 8 класса который вас интересует</string>
     <string name="choice7class_text">Выбирете раздел 7 класса который вас интересует</string>
     <string name="choice9class_text">Выбирете раздел 9 класса который вас интересует</string>
+
     <string name="formula70t">formula 1</string>
     <string name="formula71t">formula 2</string>
     <string name="formula72t">formula 3</string>
@@ -30,6 +31,7 @@
     <string name="formula711t">formula 12</string>
     <string name="formula712t">formula 13</string>
     <string name="formula713t">formula 14</string>
+
     <string name="formula70">$v=S/t$</string>
     <string name="formula71">$p=m/V$</string>
     <string name="formula72">$F_{тяж}=mg$</string>
@@ -44,4 +46,92 @@
     <string name="formula711">$M=Fl$</string>
     <string name="formula712">$η=A_п/A_з100%$</string>
     <string name="formula713">$E_п=mgh; E_к={mv^2}/2$</string>
+
+
+    <string name="formula80t">formula 1</string>
+    <string name="formula81t">formula 2</string>
+    <string name="formula82t">formula 3</string>
+    <string name="formula83t">formula 4</string>
+    <string name="formula84t">formula 5</string>
+    <string name="formula85t">formula 6</string>
+    <string name="formula86t">formula 7</string>
+    <string name="formula87t">formula 8</string>
+    <string name="formula88t">formula 9</string>
+    <string name="formula89t">formula 10</string>
+    <string name="formula810t">formula 11</string>
+    <string name="formula811t">formula 12</string>
+
+    <string name="formula80">$Q=cmΔt$</string>
+    <string name="formula81">$Q=qm$</string>
+    <string name="formula82">$Q=λm$</string>
+    <string name="formula83">$Q=Lm$</string>
+    <string name="formula84">$I=U/R$</string>
+    <string name="formula85">$I=q/t$</string>
+    <string name="formula86">$A=Uq=UIt$</string>
+    <string name="formula87">$P=A/t=UI=U^2/R$</string>
+    <string name="formula88">$Q=I^2Rt$</string>
+    <string name="formula89">$n=c/v$</string>
+    <string name="formula810">${sinα}/{sinγ}={v1}/{v2}=n$</string>
+    <string name="formula811">$D=1/F$</string>
+
+
+    <string name="formula90t">formula 1</string>
+    <string name="formula91t">formula 2</string>
+    <string name="formula92t">formula 3</string>
+    <string name="formula93t">formula 4</string>
+    <string name="formula94t">formula 5</string>
+    <string name="formula95t">formula 6</string>
+    <string name="formula96t">formula 7</string>
+    <string name="formula97t">formula 8</string>
+    <string name="formula98t">formula 9</string>
+    <string name="formula99t">formula 10</string>
+    <string name="formula910t">formula 11</string>
+    <string name="formula911t">formula 12</string>
+    <string name="formula912t">formula 13</string>
+    <string name="formula913t">formula 14</string>
+    <string name="formula914t">formula 15</string>
+    <string name="formula915t">formula 16</string>
+    <string name="formula916t">formula 17</string>
+    <string name="formula917t">formula 18</string>
+    <string name="formula918t">formula 19</string>
+    <string name="formula919t">formula 20</string>
+    <string name="formula920t">formula 21</string>
+    <string name="formula921t">formula 22</string>
+    <string name="formula922t">formula 23</string>
+    <string name="formula923t">formula 24</string>
+    <string name="formula924t">formula 25</string>
+    <string name="formula925t">formula 26</string>
+    <string name="formula926t">formula 27</string>
+    <string name="formula927t">formula 28</string>
+    <string name="formula928t">formula 29</string>
+
+    <string name="formula90">$AB^2=AC^2+BC^2$</string>
+    <string name="formula91">$S_x=x_2-x_{1}$</string>
+    <string name="formula92">$x=x_0+v_xt$</string>
+    <string name="formula93">$a={v-v_{0x}}/t$</string>
+    <string name="formula94">$v=v_0+at$</string>
+    <string name="formula95">$S=v_0t+{at^2}/2$</string>
+    <string name="formula96">$x=x_0+v_0t+{at^2}/2$</string>
+    <string name="formula97">$a=F/m$</string>
+    <string name="formula98">$h={gt^2}/2$</string>
+    <string name="formula99">$h=v_0t-{gt^2}/2$</string>
+    <string name="formula910">$F=G{m_{1}m_{2}}/r^2$</string>
+    <string name="formula911">$g=G{M_{пл.}}/R_{пл}^2$</string>
+    <string name="formula912">$g={GM_З}/{(R_з+h)^2}$</string>
+    <string name="formula913">$a=v^2/r$</string>
+    <string name="formula914">$T=1/v={2πR}/υ=t/N$</string>
+    <string name="formula915">$ω={2π}/T=2πν=υr$</string>
+    <string name="formula916">$p=mv$</string>
+    <string name="formula917">$P=Ft$</string>
+    <string name="formula918">$x=Acos(ωt+φ_0)$</string>
+    <string name="formula919">$T=2π√{L/g}; T =2π√{m/K}$</string>
+    <string name="formula920">$λ=υТ=υ/ν$</string>
+    <string name="formula921">$F_{Ам}=BIl$</string>
+    <string name="formula922">${sinα}/{sinγ}={n2}/{n1}$</string>
+    <string name="formula923">$A=UIt=Uq$</string>
+    <string name="formula924">$1/F=1/d+1/f$</string>
+    <string name="formula925">$M=Z+N$</string>
+    <string name="formula926">$M_я=M_АZm_e$</string>
+    <string name="formula927">$∆m=Zm_p+Nm_n–M_Я$</string>
+    <string name="formula928">$Е_{связи}=∆mc^2$</string>
 </resources>
