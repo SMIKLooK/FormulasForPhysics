@@ -2,14 +2,23 @@ package com.example.formulasforphysics
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.zanvent.mathview.MathView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.formulasforphysics.adapter.ItemAdapter8
+import com.example.formulasforphysics.data.Datasource8
 
 class Class8Formulas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class8_formulas)
 
-        val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
+        val myDataset8 = Datasource8().loadFormulas8()
+
+        val recyclerView8 = findViewById<RecyclerView>(R.id.recycler_view8)
+        recyclerView8.adapter = ItemAdapter8(this, myDataset8)
+
+        recyclerView8.setHasFixedSize(true)
+
+        /*val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
 
         //0
         createMathView(R.id.math_view80,
@@ -69,8 +78,33 @@ class Class8Formulas : AppCompatActivity() {
         //11
         createMathView(R.id.math_view811,
             getString(R.string.formula811),
-            pixelScaleTypeScaleDP, 20)
+            pixelScaleTypeScaleDP, 20)*/
 
+        /*val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
+
+        val formulaTexts = arrayOf(
+            getString(R.string.formula80),
+            getString(R.string.formula81),
+            getString(R.string.formula82),
+            getString(R.string.formula83),
+            getString(R.string.formula84),
+            getString(R.string.formula85),
+            getString(R.string.formula86),
+            getString(R.string.formula87),
+            getString(R.string.formula88),
+            getString(R.string.formula89),
+            getString(R.string.formula810),
+            getString(R.string.formula811),
+        )
+
+        for (i in formulaTexts.indices) {
+            createMathView(
+                resources.getIdentifier("math_view8${i}", "id", packageName),
+                formulaTexts[i],
+                pixelScaleTypeScaleDP,
+                20
+            )
+        }
 
     }
     private fun createMathView(viewId: Int,
@@ -82,5 +116,6 @@ class Class8Formulas : AppCompatActivity() {
         mathView.pixelScaleType = pixelScaleType
         mathView.setTextSize(textSize)
         return mathView
+    }*/
     }
 }

@@ -2,14 +2,23 @@ package com.example.formulasforphysics
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.zanvent.mathview.MathView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.formulasforphysics.adapter.ItemAdapter9
+import com.example.formulasforphysics.data.Datasource9
 
 class Class9Formulas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class9_formulas)
 
-        val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
+        val myDataset9 = Datasource9().loadFormulas9()
+
+        val recyclerView9 = findViewById<RecyclerView>(R.id.recycler_view9)
+        recyclerView9.adapter = ItemAdapter9(this, myDataset9)
+
+        recyclerView9.setHasFixedSize(true)
+
+        /*val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
 
         //0
         createMathView(R.id.math_view90,
@@ -154,7 +163,51 @@ class Class9Formulas : AppCompatActivity() {
         //28
         createMathView(R.id.math_view928,
             getString(R.string.formula928),
-            pixelScaleTypeScaleDP, 20)
+            pixelScaleTypeScaleDP, 20)*/
+
+        /*val pixelScaleTypeScaleDP = MathView.Scale.SCALE_DP
+
+        val formulaTexts = arrayOf(
+            getString(R.string.formula90),
+            getString(R.string.formula91),
+            getString(R.string.formula92),
+            getString(R.string.formula93),
+            getString(R.string.formula94),
+            getString(R.string.formula95),
+            getString(R.string.formula96),
+            getString(R.string.formula97),
+            getString(R.string.formula98),
+            getString(R.string.formula99),
+            getString(R.string.formula910),
+            getString(R.string.formula911),
+            getString(R.string.formula912),
+            getString(R.string.formula913),
+            getString(R.string.formula914),
+            getString(R.string.formula915),
+            getString(R.string.formula916),
+            getString(R.string.formula917),
+            getString(R.string.formula918),
+            getString(R.string.formula919),
+            getString(R.string.formula920),
+            getString(R.string.formula921),
+            getString(R.string.formula922),
+            getString(R.string.formula923),
+            getString(R.string.formula924),
+            getString(R.string.formula925),
+            getString(R.string.formula926),
+            getString(R.string.formula927),
+            getString(R.string.formula928),
+        )
+
+        for (i in formulaTexts.indices) {
+            createMathView(
+                resources.getIdentifier("math_view9${i}", "id", packageName),
+                formulaTexts[i],
+                pixelScaleTypeScaleDP,
+                20
+            )
+        }
+
     }
     private fun createMathView(viewId: Int,
                                formula: String,
@@ -165,5 +218,6 @@ class Class9Formulas : AppCompatActivity() {
         mathView.pixelScaleType = pixelScaleType
         mathView.setTextSize(textSize)
         return mathView
+    }*/
     }
 }

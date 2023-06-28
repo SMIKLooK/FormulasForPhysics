@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Class8Formulas">
 
-    <ScrollView
+    <!--<ScrollView
         android:id="@+id/horizon_Scroll_View8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,7 +14,6 @@
         android:fillViewport="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,5 +22,15 @@
             <include layout="@layout/layout_8th_grade"/>
 
         </LinearLayout>
-    </ScrollView>
+    </ScrollView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
