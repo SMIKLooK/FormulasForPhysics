@@ -4,6 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.formulasforphysics.select_topic.SelectA7thGradeTopic
+import com.example.formulasforphysics.select_topic.SelectA8thGradeTopic
+import com.example.formulasforphysics.select_topic.SelectA9thGradeTopic
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

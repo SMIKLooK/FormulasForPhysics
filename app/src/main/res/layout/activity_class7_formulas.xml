@@ -4,28 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Class7Formulas">
-     <!--<ScrollView
-         android:id="@+id/horizon_Scroll_View7"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:stretchColumns="160"
-         android:fillViewport="true"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent">
-          <LinearLayout
-              android:id="@+id/layout7"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:orientation="vertical">
-
-               <include layout="@layout/layout_7th_grade"/>
-
-          </LinearLayout>
-     </ScrollView>-->
+    tools:context=".formulas.Class7Formulas">
 
      <androidx.recyclerview.widget.RecyclerView
-         android:id="@+id/recycler_view7"
+         android:id="@+id/recycler_view7_formulas"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:scrollbars="vertical"

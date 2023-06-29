@@ -4,27 +4,21 @@
     <string name="class_7">7 класс</string>
     <string name="class_8">8 класс</string>
     <string name="class_9">9 класс</string>
-    <string name="back7text">назад</string>
-    <string name="back8text">назад</string>
-    <string name="back9text">назад</string>
-    <string name="formula_7_class_text">формулы</string>
-    <string name="laws_of_physics_text7">законы</string>
-    <string name="formula_8_class_text">формулы</string>
-    <string name="laws_of_physics_text8">законы</string>
-    <string name="formula_9_class_text">формулы</string>
-    <string name="laws_of_physics_text9">законы</string>
+    <string name="back_text">назад</string>
+    <string name="formulas">формулы</string>
+    <string name="laws_of_physics">законы и явления</string>
     <string name="choice8class_text">Выбирете раздел 8 класса который вас интересует</string>
     <string name="choice7class_text">Выбирете раздел 7 класса который вас интересует</string>
     <string name="choice9class_text">Выбирете раздел 9 класса который вас интересует</string>
 
-    <string name="formula70t">formula 1</string>
-    <string name="formula71t">formula 2</string>
-    <string name="formula72t">formula 3</string>
-    <string name="formula73t">formula 4</string>
-    <string name="formula74t">formula 5</string>
-    <string name="formula75t">formula 6</string>
-    <string name="formula76t">formula 7</string>
-    <string name="formula77t">formula 8</string>
+    <string name="formula70t">скорость</string>
+    <string name="formula71t">плотность</string>
+    <string name="formula72t">силя тяжести</string>
+    <string name="formula73t">сила упругости</string>
+    <string name="formula74t">давление</string>
+    <string name="formula75t">сила Архимеда</string>
+    <string name="formula76t">сила трения</string>
+    <string name="formula77t">давление в жидкости(газе)</string>
     <string name="formula78t">formula 9</string>
     <string name="formula79t">formula 10</string>
     <string name="formula710t">formula 11</string>
@@ -39,7 +33,7 @@
     <string name="formula74">$p=F/S$</string>
     <string name="formula75">$F_А=pgV$</string>
     <string name="formula76">$F_{тр}=μN=μmg$</string>
-    <string name="formula77">$p=p_{п.ж.}gh$</string>
+    <string name="formula77">$p=pgh$</string>
     <string name="formula78">$A=FS$</string>
     <string name="formula79">$N=A/t$</string>
     <string name="formula710">$F_{1}/F_2=l_2/l_{1}$</string>
@@ -48,13 +42,13 @@
     <string name="formula713">$E_п=mgh; E_к={mv^2}/2$</string>
 
 
-    <string name="formula80t">formula 1</string>
-    <string name="formula81t">formula 2</string>
-    <string name="formula82t">formula 3</string>
-    <string name="formula83t">formula 4</string>
-    <string name="formula84t">formula 5</string>
-    <string name="formula85t">formula 6</string>
-    <string name="formula86t">formula 7</string>
+    <string name="formula80t"></string>
+    <string name="formula81t"></string>
+    <string name="formula82t"></string>
+    <string name="formula83t"></string>
+    <string name="formula84t"></string>
+    <string name="formula85t"></string>
+    <string name="formula86t"></string>
     <string name="formula87t">formula 8</string>
     <string name="formula88t">formula 9</string>
     <string name="formula89t">formula 10</string>
@@ -134,4 +128,72 @@
     <string name="formula926">$M_я=M_АZm_e$</string>
     <string name="formula927">$∆m=Zm_p+Nm_n–M_Я$</string>
     <string name="formula928">$Е_{связи}=∆mc^2$</string>
+
+
+    <string name="laws70t">Условие плавания тел:</string>
+    <string name="laws71t">Закон гидравлической машины:</string>
+    <string name="laws72t">Закон сообщающихся сосудов:</string>
+    <string name="laws73t">Сохранение и превращение механической энергии:</string>
+    <string name="laws74t">Броуновское движение:</string>
+    <string name="laws75t">Ускорение свободного падения:</string>
+
+    <string name="laws70">Если архимедова сила больше силы тяжести тела, то тело всплывает.</string>
+    <string name="laws71">Силы действующие на уравновешенные поршни гидравлической машины, пропорциональны площадям этих поршней.</string>
+    <string name="laws72">Однородная жидкость в сообщающихся сосудах находится на одном уровне</string>
+    <string name="laws73">Сумма потенциальной и кинетической энергии в любой момент времени остается постоянной.</string>
+    <string name="laws74">Беспорядочное движение микроскопических видимых взвешенных частиц твёрдого вещества в жидкости или газе, вызываемое тепловым движением частиц жидкости или газа</string>
+    <string name="laws75">Ускорение свободного падения (g) одинаково для всех тел на данной широте Земного шара.
+g=9,81</string>
+
+
+    <string name="laws80t">Объёмное расширение твердых тел:</string>
+    <string name="laws81t">Линейное расширение твердых тел:</string>
+    <string name="laws82t">Теплоёмкость тела:</string>
+    <string name="laws83t">Коэффициент полезного действия (КПД) тепловой машины:</string>
+    <string name="laws84t">Закон Кулона:</string>
+    <string name="laws85t">Последовательное соединение проводников:</string>
+    <string name="laws86t">Параллельное соединение проводников:</string>
+    <string name="laws87t">Закон отражения света:</string>
+    <string name="laws88t">Законы преломления света:</string>
+
+    <string name="laws80">При нагревании изменение объёма тела прямо пропорционально изменению его температуры</string>
+    <string name="laws81">При нагревании длина тела прямо пропорциональна изменению температуры</string>
+    <string name="laws82">Теплоёмкость тела из однородного вещества равна произведению массы тела на удельную теплоёмкость вещества</string>
+    <string name="laws83">1) КПД тепловой машины тем выше, чем количество теплоты отданное нагревателем, больше количества теплоты полученного охладителем.
+2) КПД не может быть равен или больше единицы.</string>
+    <string name="laws84">Сила взаимодействия двух заряженных тел, размерами которых можно пренебречь по сравнению с расстоянием между ними, прямо пропорциональна значениям их зарядов и обратно пропорциональна квадрату расстояния между ними</string>
+    <string name="laws85">При последовательном соединении проводников:
+1) сила тока (I) во всех участках (I1, I2, … In) цепи одинакова;
+2) общее сопротивление цепи (R) или её участка равно сумме сопротивлений отдельных проводников (R1, R2, … Rn) (или отдельных участков цепи);
+3) общее напряжение в цепи (U) равно сумме напряжений на её отдельных участках (U1, U2, … Un)</string>
+    <string name="laws86">При параллельном соединении проводников:
+1) сила тока (I) в цепи равна сумме сил токов (I1, I2, … In) в отдельных ветвях;
+2) общее сопротивление цепи (R) связано с сопротивлениями проводников в отдельных ветвях (R1, R2, … Rn) зависимостью обратного вида;
+3) общее напряжение в цепи (U) равно напряжению на её отдельных ветвях (U1, U2, … Un);
+4) если соединены n проводников с одинаковым сопротивлением (R1=R2= … =Rn), то общее сопротивление цепи (Rобщ) в n раз меньше сопротивления каждого из проводников.</string>
+    <string name="laws87">1) Падающий и отраженный лучи, а также перпендикуляр, опущенный к границе раздела двух сред в точку падения луча, лежат в одной плоскости.
+2) Угол падения (α) равен углу отражения (β).</string>
+    <string name="laws88">1) Падающий и отраженный лучи, а также перпендикуляр, опущенный к границе раздела двух сред в точку падения луча, лежат в одной плоскости.
+2) Относительный показатель преломления второй среды относительно первой (n1,2), равный отношению синуса угла падения (α) к синусу угла преломления (γ), для данных двух сред есть величина постоянная, зависящая только от скоростей (v1 и v2) распространения света в этих средах.
+Если первой средой является вакуум (или воздух), то отношение синуса угла падения (α) к синусу угла преломления (γ) равно абсолютному показателю преломления для второй среды (n2).</string>
+
+
+    <string name="laws90t">Первый закон Ньютона:</string>
+    <string name="laws91t">Второй закон Ньютона:</string>
+    <string name="laws92t">Третий закон Ньютона:</string>
+    <string name="laws93t">Закон всемирного тяготения:</string>
+    <string name="laws94t">Трение покоя:</string>
+    <string name="laws95t">Трение скольжения:</string>
+    <string name="laws96t">Коэффициент трения:</string>
+    <string name="laws97t">Закон сохранения импульса:</string>
+
+    <string name="laws90">Существуют такие системы отсчета, относительно которых тело сохраняет состояния покоя или равномерного прямолинейного движения, если на него не действуют другие тела или равнодействующая всех приложенных к телу сил равна нулю.</string>
+    <string name="laws91">Равнодействующая всех сил приложенных к телу, равна произведению массы тела на его ускорение, сообщенное этими силами.</string>
+    <string name="laws92">Тела действуют друг на друга с силами и равными по модулю и противоположными по направлению.</string>
+    <string name="laws93">Тела притягиваются друг к другу с силой (F), модуль которой пропорционален произведению их масс (m1 и m2) и обратно пропорционален квадрату расстояния между их центрами масс (R).</string>
+    <string name="laws94">Максимальная сила трения покоя (Fтр)max пропорциональна силе нормального давления (N) и зависит от характера взаимодействия соприкасающихся поверхностей тел, определяемого коэффициентом трения (μ)</string>
+    <string name="laws95">Сила трения скольжения (Fтр) пропорциональна силе давления (N), коэффициенту трения (μ) и направлена противоположно направлению движения тела.</string>
+    <string name="laws96">Коэффициент трения (μ) вычисляют как отношение модулей силы трения (Fтр) и силы давления (N).</string>
+    <string name="laws97">Геометрическая сумма импульсов тел (mv1}, mv2), составляющих замкнутую систему, остается постоянной при любых движениях и взаимодействиях тел системы.
+</string>
 </resources>

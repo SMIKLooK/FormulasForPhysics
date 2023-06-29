@@ -1,9 +1,9 @@
-package com.example.formulasforphysics.data
+package com.example.formulasforphysics.data.formulas
 
 import com.example.formulasforphysics.R
-import com.example.formulasforphysics.model.Formulas8
+import com.example.formulasforphysics.model.formulas.Formulas8
 
-class Datasource8 {
+class Datasource8Formulas {
     fun loadFormulas8(): List<Formulas8>{
         return listOf<Formulas8>(
             Formulas8(R.string.formula80, R.string.formula80t),

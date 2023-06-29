@@ -12,25 +12,31 @@
         android:theme="@style/Theme.FormulasForPhysics"
         tools:targetApi="31">
         <activity
-            android:name=".LawsOfPhysics7"
+            android:name=".laws.Class9Laws"
             android:exported="false" />
         <activity
-            android:name=".Class9Formulas"
+            android:name=".laws.Class8Laws"
             android:exported="false" />
         <activity
-            android:name=".Class8Formulas"
+            android:name=".laws.Class7Laws"
             android:exported="false" />
         <activity
-            android:name=".Class7Formulas"
+            android:name=".formulas.Class9Formulas"
             android:exported="false" />
         <activity
-            android:name=".SelectA9thGradeTopic"
+            android:name=".formulas.Class8Formulas"
             android:exported="false" />
         <activity
-            android:name=".SelectA8thGradeTopic"
+            android:name=".formulas.Class7Formulas"
             android:exported="false" />
         <activity
-            android:name=".SelectA7thGradeTopic"
+            android:name=".select_topic.SelectA9thGradeTopic"
+            android:exported="false" />
+        <activity
+            android:name=".select_topic.SelectA8thGradeTopic"
+            android:exported="false" />
+        <activity
+            android:name=".select_topic.SelectA7thGradeTopic"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

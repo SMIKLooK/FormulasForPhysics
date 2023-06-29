@@ -1,4 +1,4 @@
-package com.example.formulasforphysics.model
+package com.example.formulasforphysics.model.formulas
 
 import androidx.annotation.StringRes
 
