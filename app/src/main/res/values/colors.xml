@@ -7,5 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="round_button_color">#2020FF</color>
+    <color name="blue">#2020FF</color>
+    <color name="blue_dark">#FF425BFD</color>
 </resources>

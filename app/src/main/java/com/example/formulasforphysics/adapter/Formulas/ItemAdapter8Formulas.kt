@@ -33,7 +33,7 @@ class ItemAdapter8Formulas (
         holder.mathView8.text = context8.resources.getString(item8.mathViewResourceStringId8)
         holder.mathView8.pixelScaleType = MathView.Scale.SCALE_DP
         holder.mathView8.textColor = "#FF0080"
-        holder.mathView8.setTextSize(20)
+        holder.mathView8.setTextSize(30)
         holder.textView8.text = context8.resources.getString(item8.stringResourceId8)
     }
 }

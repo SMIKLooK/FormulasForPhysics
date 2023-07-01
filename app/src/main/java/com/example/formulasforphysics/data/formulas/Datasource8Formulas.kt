@@ -17,7 +17,8 @@ class Datasource8Formulas {
             Formulas8(R.string.formula88, R.string.formula88t),
             Formulas8(R.string.formula89, R.string.formula89t),
             Formulas8(R.string.formula810, R.string.formula810t),
-            Formulas8(R.string.formula811, R.string.formula811t)
+            Formulas8(R.string.formula811, R.string.formula811t),
+            Formulas8(R.string.formula812, R.string.formula812t)
         )
     }
 }

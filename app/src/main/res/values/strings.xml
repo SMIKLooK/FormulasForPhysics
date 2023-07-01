@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FormulasForPhysics</string>
+    <string name="app_name">Формулы по физике</string>
     <string name="select_a_class_text">Выбирете класс!</string>
     <string name="class_7">7 класс</string>
     <string name="class_8">8 класс</string>
@@ -19,12 +19,12 @@
     <string name="formula75t">сила Архимеда</string>
     <string name="formula76t">сила трения</string>
     <string name="formula77t">давление в жидкости(газе)</string>
-    <string name="formula78t">formula 9</string>
-    <string name="formula79t">formula 10</string>
-    <string name="formula710t">formula 11</string>
-    <string name="formula711t">formula 12</string>
-    <string name="formula712t">formula 13</string>
-    <string name="formula713t">formula 14</string>
+    <string name="formula78t">работа силы</string>
+    <string name="formula79t">мощность</string>
+    <string name="formula710t">закон равновесия рычага</string>
+    <string name="formula711t">момент силы</string>
+    <string name="formula712t">коэффициент полезного действия</string>
+    <string name="formula713t">потанциальная и кинетическая энергия</string>
 
     <string name="formula70">$v=S/t$</string>
     <string name="formula71">$p=m/V$</string>
@@ -42,18 +42,20 @@
     <string name="formula713">$E_п=mgh; E_к={mv^2}/2$</string>
 
 
-    <string name="formula80t"></string>
-    <string name="formula81t"></string>
-    <string name="formula82t"></string>
-    <string name="formula83t"></string>
-    <string name="formula84t"></string>
-    <string name="formula85t"></string>
-    <string name="formula86t"></string>
-    <string name="formula87t">formula 8</string>
-    <string name="formula88t">formula 9</string>
-    <string name="formula89t">formula 10</string>
-    <string name="formula810t">formula 11</string>
-    <string name="formula811t">formula 12</string>
+
+    <string name="formula80t">количество теплоты</string>
+    <string name="formula81t">количество теплоты при сгорании топлива</string>
+    <string name="formula82t">количество теплоты, необходимого для плавления вещества</string>
+    <string name="formula83t">количество теплоты при парообразовании и конденсации</string>
+    <string name="formula84t">закон Ома для участка цепи</string>
+    <string name="formula85t">сила тока</string>
+    <string name="formula86t">работа электрического тока</string>
+    <string name="formula87t">электрическая мощность</string>
+    <string name="formula88t">закон Джоуля-Ленца</string>
+    <string name="formula89t">абсолютный показатель преломления вещества</string>
+    <string name="formula810t">закон Снеллиуса</string>
+    <string name="formula811t">оптическая сила линзы</string>
+    <string name="formula812t">удельное сопротивления проводника</string>
 
     <string name="formula80">$Q=cmΔt$</string>
     <string name="formula81">$Q=qm$</string>
@@ -67,37 +69,38 @@
     <string name="formula89">$n=c/v$</string>
     <string name="formula810">${sinα}/{sinγ}={v1}/{v2}=n$</string>
     <string name="formula811">$D=1/F$</string>
+    <string name="formula812">$R=ρl/S$</string>
 
 
-    <string name="formula90t">formula 1</string>
-    <string name="formula91t">formula 2</string>
-    <string name="formula92t">formula 3</string>
-    <string name="formula93t">formula 4</string>
-    <string name="formula94t">formula 5</string>
-    <string name="formula95t">formula 6</string>
-    <string name="formula96t">formula 7</string>
-    <string name="formula97t">formula 8</string>
-    <string name="formula98t">formula 9</string>
-    <string name="formula99t">formula 10</string>
-    <string name="formula910t">formula 11</string>
-    <string name="formula911t">formula 12</string>
-    <string name="formula912t">formula 13</string>
-    <string name="formula913t">formula 14</string>
-    <string name="formula914t">formula 15</string>
-    <string name="formula915t">formula 16</string>
-    <string name="formula916t">formula 17</string>
-    <string name="formula917t">formula 18</string>
-    <string name="formula918t">formula 19</string>
-    <string name="formula919t">formula 20</string>
-    <string name="formula920t">formula 21</string>
-    <string name="formula921t">formula 22</string>
-    <string name="formula922t">formula 23</string>
-    <string name="formula923t">formula 24</string>
-    <string name="formula924t">formula 25</string>
-    <string name="formula925t">formula 26</string>
-    <string name="formula926t">formula 27</string>
-    <string name="formula927t">formula 28</string>
-    <string name="formula928t">formula 29</string>
+    <string name="formula90t">вычисление перемещения</string>
+    <string name="formula91t">проекция вектора перемещения</string>
+    <string name="formula92t">уравнение движения</string>
+    <string name="formula93t">ускорение движения тела</string>
+    <string name="formula94t">уравнение скорости</string>
+    <string name="formula95t">уравнение Галилея</string>
+    <string name="formula96t">изменение координаты тела при прямолинейном равноускоренном движении</string>
+    <string name="formula97t">второй закон Ньютона</string>
+    <string name="formula98t">вычисление высоты, с которой падает тело</string>
+    <string name="formula99t">высота при движении вертикально вверх</string>
+    <string name="formula910t">закон всемироного тяготения</string>
+    <string name="formula911t">ускорение свободного падения на разных планетах</string>
+    <string name="formula912t">ускорение свободного падения</string>
+    <string name="formula913t">период движения по окружности</string>
+    <string name="formula914t">период движения по окружности</string>
+    <string name="formula915t">расчет угловой скорости</string>
+    <string name="formula916t">импульс тела</string>
+    <string name="formula917t">импульс силы</string>
+    <string name="formula918t">уравнение колебаний</string>
+    <string name="formula919t">период для математического маятника; пружинного маятника</string>
+    <string name="formula920t">длина волны</string>
+    <string name="formula921t">сила Ампера</string>
+    <string name="formula922t">закон преломления</string>
+    <string name="formula923t">работа электрического тока</string>
+    <string name="formula924t">тонкая линзы</string>
+    <string name="formula925t">массовое число</string>
+    <string name="formula926t">масса ядра</string>
+    <string name="formula927t">дефект масс</string>
+    <string name="formula928t">энергия связи</string>
 
     <string name="formula90">$AB^2=AC^2+BC^2$</string>
     <string name="formula91">$S_x=x_2-x_{1}$</string>
