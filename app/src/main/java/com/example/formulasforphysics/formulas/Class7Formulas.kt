@@ -14,6 +14,11 @@ class Class7Formulas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class7_formulas)
 
+        val actionbar = supportActionBar
+
+        actionbar!!.title = "Формулы 7 класса"
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
         val myDataset7 = Datasource7Formulas().loadFormulas7()
 
         val recyclerView7 = findViewById<RecyclerView>(R.id.recycler_view7_formulas)

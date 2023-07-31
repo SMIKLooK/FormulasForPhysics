@@ -12,6 +12,11 @@ class Class8Laws : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class8_laws)
 
+        val actionbar = supportActionBar
+
+        actionbar!!.title = "Законы 8 класса"
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
         val myDataset8Laws = Datasource8Laws().loadLaws8()
 
         val recyclerView8Laws = findViewById<RecyclerView>(R.id.recycler_view8_laws)

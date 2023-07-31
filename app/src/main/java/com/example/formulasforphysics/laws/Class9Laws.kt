@@ -12,6 +12,11 @@ class Class9Laws : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class9_laws)
 
+        val actionbar = supportActionBar
+
+        actionbar!!.title = "Законы 9 класса"
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
         val myDataset9Laws = Datasource9Laws().loadLaws9()
 
         val recyclerView9Laws = findViewById<RecyclerView>(R.id.recycler_view9_laws)

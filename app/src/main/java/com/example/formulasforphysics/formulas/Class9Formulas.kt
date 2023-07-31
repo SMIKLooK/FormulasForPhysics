@@ -12,6 +12,11 @@ class Class9Formulas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_class9_formulas)
 
+        val actionbar = supportActionBar
+
+        actionbar!!.title = "Формулы 9 класса"
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
         val myDataset9 = Datasource9Formulas().loadFormulas9()
 
         val recyclerView9 = findViewById<RecyclerView>(R.id.recycler_view9_formulas)
