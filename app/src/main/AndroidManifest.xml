@@ -12,30 +12,6 @@
         android:theme="@style/Theme.FormulasForPhysics"
         tools:targetApi="31">
         <activity
-            android:name=".laws.Class9Laws"
-            android:parentActivityName=".select_topic.SelectA9thGradeTopic"
-            android:exported="false" />
-        <activity
-            android:name=".laws.Class8Laws"
-            android:parentActivityName=".select_topic.SelectA8thGradeTopic"
-            android:exported="false" />
-        <activity
-            android:name=".laws.Class7Laws"
-            android:parentActivityName=".select_topic.SelectA7thGradeTopic"
-            android:exported="false" />
-        <activity
-            android:name=".formulas.Class9Formulas"
-            android:parentActivityName=".select_topic.SelectA9thGradeTopic"
-            android:exported="false" />
-        <activity
-            android:name=".formulas.Class8Formulas"
-            android:parentActivityName=".select_topic.SelectA8thGradeTopic"
-            android:exported="false" />
-        <activity
-            android:name=".formulas.Class7Formulas"
-            android:parentActivityName=".select_topic.SelectA7thGradeTopic"
-            android:exported="false" />
-        <activity
             android:name=".select_topic.SelectA9thGradeTopic"
             android:exported="false" />
         <activity
@@ -54,5 +30,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

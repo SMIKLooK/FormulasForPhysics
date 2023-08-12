@@ -4,13 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.formulasforphysics.MainActivity
+import com.example.formulasforphysics.R
 import com.example.formulasforphysics.databinding.ActivitySelectA7thGradeTopicBinding
-import com.example.formulasforphysics.formulas.Class7Formulas
-import com.example.formulasforphysics.laws.Class7Laws
+import com.example.formulasforphysics.formulas.Class7FormulasFragment
+import com.example.formulasforphysics.laws.Class7LawsFragment
 
-private lateinit var binding: ActivitySelectA7thGradeTopicBinding
 
 class SelectA7thGradeTopic : AppCompatActivity() {
+    private lateinit var binding: ActivitySelectA7thGradeTopicBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySelectA7thGradeTopicBinding.inflate(layoutInflater)
@@ -18,13 +19,13 @@ class SelectA7thGradeTopic : AppCompatActivity() {
         setContentView(view)
 
         binding.formula7Class.setOnClickListener {
-            val intent = Intent(this, Class7Formulas::class.java)
-            startActivity(intent)
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.select_fragment, Class7FormulasFragment()).commit()
         }
 
         binding.lawsOfPhysics7.setOnClickListener {
-            val intent = Intent(this, Class7Laws::class.java)
-            startActivity(intent)
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.select_fragment, Class7LawsFragment()).commit()
         }
 
         binding.back7.setOnClickListener {

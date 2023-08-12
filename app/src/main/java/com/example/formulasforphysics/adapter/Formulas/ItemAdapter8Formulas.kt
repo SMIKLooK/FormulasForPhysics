@@ -1,17 +1,17 @@
 package com.example.formulasforphysics.adapter.Formulas
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.formulasforphysics.R
+import com.example.formulasforphysics.formulas.Class8FormulasFragment
 import com.example.formulasforphysics.model.formulas.Formulas8
 import com.zanvent.mathview.MathView
 
-class ItemAdapter8Formulas (
-    private val context8: Context,
+class ItemAdapter8Formulas(
+    private val context8: Class8FormulasFragment,
     private val dataset8: List<Formulas8>): RecyclerView.Adapter<ItemAdapter8Formulas.ViewHolder8Formulas>()
 {
     class ViewHolder8Formulas(private val view: View): RecyclerView.ViewHolder(view) {

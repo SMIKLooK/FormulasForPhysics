@@ -42,7 +42,6 @@
     <string name="formula713">$E_п=mgh; E_к={mv^2}/2$</string>
 
 
-
     <string name="formula80t">количество теплоты</string>
     <string name="formula81t">количество теплоты при сгорании топлива</string>
     <string name="formula82t">количество теплоты, необходимого для плавления вещества</string>
@@ -199,4 +198,5 @@ g=9,81.</string>
     <string name="laws96">Коэффициент трения (μ) вычисляют как отношение модулей силы трения (Fтр) и силы давления (N).</string>
     <string name="laws97">Геометрическая сумма импульсов тел (mv1}, mv2), составляющих замкнутую систему, остается постоянной при любых движениях и взаимодействиях тел системы.
 </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

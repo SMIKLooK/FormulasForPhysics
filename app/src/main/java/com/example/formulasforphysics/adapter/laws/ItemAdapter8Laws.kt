@@ -1,16 +1,16 @@
 package com.example.formulasforphysics.adapter.laws
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.formulasforphysics.laws.Class8LawsFragment
 import com.example.formulasforphysics.R
 import com.example.formulasforphysics.model.laws.Laws8
 
 class ItemAdapter8Laws(
-    private val context8: Context,
+    private val context8: Class8LawsFragment,
     private val dataset8: List<Laws8>): RecyclerView.Adapter<ItemAdapter8Laws.ViewHolder8Laws>()
 {
     class ViewHolder8Laws(private val view: View): RecyclerView.ViewHolder(view){
