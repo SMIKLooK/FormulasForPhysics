@@ -1,17 +1,12 @@
 package com.example.formulasforphysics
 
-import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onData
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.action.ViewActions.scrollTo
-import androidx.test.espresso.assertion.ViewAssertions
-import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.formulasforphysics.adapter.Formulas.ItemAdapter7Formulas
-import com.example.formulasforphysics.model.formulas.Formulas7
 import org.hamcrest.Matchers.*
 import org.junit.Assert.*
 import org.junit.Rule
@@ -37,9 +32,6 @@ class Test7ClassFormulas {
     onView(
       withId(R.id.formula_7_class)
     ).perform(click())
-    onView(
-      withId(R.id.class_7_formulas_container)
-    ).check(matches(isDisplayed()))
   }
 
   @Test

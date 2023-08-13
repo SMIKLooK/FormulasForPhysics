@@ -1,69 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".select_topic.SelectA9thGradeTopic">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/choice9class"
+            android:id="@+id/select_a_class"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="250dp"
             android:gravity="center"
-            android:text="@string/choice9class_text"
+            android:text="@string/select_a_class_text"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@id/formula_9_class"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@id/seven_class"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/formula_9_class"
+            android:id="@+id/seven_class"
             android:layout_width="120dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/round_button"
-            android:text="@string/formulas"
+            android:text="@string/class_7"
             android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@id/laws_of_physics9"
+            app:layout_constraintBottom_toTopOf="@id/eighth_class"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/choice9class" />
+            app:layout_constraintTop_toBottomOf="@+id/select_a_class" />
 
         <Button
-            android:id="@+id/laws_of_physics9"
+            android:id="@+id/eighth_class"
             android:layout_width="120dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/round_button"
-            android:text="@string/laws_of_physics"
+            android:text="@string/class_8"
             android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@id/back9"
+            app:layout_constraintBottom_toTopOf="@id/ninth_class"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/formula_9_class" />
+            app:layout_constraintTop_toBottomOf="@id/seven_class" />
 
         <Button
-            android:id="@+id/back9"
+            android:id="@+id/ninth_class"
             android:layout_width="120dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="300dp"
+            android:layout_marginBottom="250dp"
             android:background="@drawable/round_button"
-            android:text="@string/back_text"
+            android:text="@string/class_9"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/laws_of_physics9" />
+            app:layout_constraintTop_toBottomOf="@id/eighth_class" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
@@ -74,4 +73,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

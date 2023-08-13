@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.formulasforphysics.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_selectA7thGradeTopicFragment"
+            app:destination="@id/selectA7thGradeTopicFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_selectA8thGradeTopicFragment"
+            app:destination="@id/selectA8thGradeTopicFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_selectA9thGradeTopicFragment"
+            app:destination="@id/selectA9thGradeTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectA7thGradeTopicFragment"
+        android:name="com.example.formulasforphysics.select_topic.SelectA7thGradeTopicFragment"
+        android:label="fragment_select_a7th_grade_topic"
+        tools:layout="@layout/fragment_select_a7th_grade_topic" >
+        <action
+            android:id="@+id/action_selectA7thGradeTopicFragment_to_class7FormulasFragment"
+            app:destination="@id/class7FormulasFragment" />
+        <action
+            android:id="@+id/action_selectA7thGradeTopicFragment_to_class7LawsFragment"
+            app:destination="@id/class7LawsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectA8thGradeTopicFragment"
+        android:name="com.example.formulasforphysics.select_topic.SelectA8thGradeTopicFragment"
+        android:label="fragment_select_a8th_grade_topic"
+        tools:layout="@layout/fragment_select_a8th_grade_topic" >
+        <action
+            android:id="@+id/action_selectA8thGradeTopicFragment_to_class8FormulasFragment"
+            app:destination="@id/class8FormulasFragment" />
+        <action
+            android:id="@+id/action_selectA8thGradeTopicFragment_to_class8LawsFragment"
+            app:destination="@id/class8LawsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectA9thGradeTopicFragment"
+        android:name="com.example.formulasforphysics.select_topic.SelectA9thGradeTopicFragment"
+        android:label="fragment_select_a9th_grade_topic"
+        tools:layout="@layout/fragment_select_a9th_grade_topic" >
+        <action
+            android:id="@+id/action_selectA9thGradeTopicFragment_to_class9FormulasFragment"
+            app:destination="@id/class9FormulasFragment" />
+        <action
+            android:id="@+id/action_selectA9thGradeTopicFragment_to_class9LawsFragment"
+            app:destination="@id/class9LawsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/class7FormulasFragment"
+        android:name="com.example.formulasforphysics.formulas.Class7FormulasFragment"
+        android:label="fragment_class7_formulas"
+        tools:layout="@layout/fragment_class7_formulas" >
+        <action
+            android:id="@+id/action_class7FormulasFragment_to_selectA7thGradeTopicFragment"
+            app:destination="@id/selectA7thGradeTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/class7LawsFragment"
+        android:name="com.example.formulasforphysics.laws.Class7LawsFragment"
+        android:label="fragment_class7_laws"
+        tools:layout="@layout/fragment_class7_laws" >
+        <action
+            android:id="@+id/action_class7LawsFragment_to_selectA7thGradeTopicFragment"
+            app:destination="@id/selectA7thGradeTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/class8FormulasFragment"
+        android:name="com.example.formulasforphysics.formulas.Class8FormulasFragment"
+        android:label="fragment_class8_formulas"
+        tools:layout="@layout/fragment_class8_formulas" >
+        <action
+            android:id="@+id/action_class8FormulasFragment_to_selectA8thGradeTopicFragment"
+            app:destination="@id/selectA8thGradeTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/class8LawsFragment"
+        android:name="com.example.formulasforphysics.laws.Class8LawsFragment"
+        android:label="fragment_class8_laws"
+        tools:layout="@layout/fragment_class8_laws" />
+    <fragment
+        android:id="@+id/class9FormulasFragment"
+        android:name="com.example.formulasforphysics.formulas.Class9FormulasFragment"
+        android:label="fragment_class9_formulas"
+        tools:layout="@layout/fragment_class9_formulas" />
+    <fragment
+        android:id="@+id/class9LawsFragment"
+        android:name="com.example.formulasforphysics.laws.Class9LawsFragment"
+        android:label="fragment_class9_laws"
+        tools:layout="@layout/fragment_class9_laws" />
+</navigation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.FormulasForPhysics"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".select_topic.SelectA8thGradeTopicFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/choice8class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/choice8class_text"
+            android:textSize="20sp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/formula_8_class"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/formula_8_class"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="@string/formulas"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@id/laws_of_physics8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/choice8class" />
+
+        <Button
+            android:id="@+id/laws_of_physics8"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="@string/laws_of_physics"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@id/back8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/formula_8_class" />
+
+        <Button
+            android:id="@+id/back8"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="300dp"
+            android:text="@string/back_text"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/laws_of_physics8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/select_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>
