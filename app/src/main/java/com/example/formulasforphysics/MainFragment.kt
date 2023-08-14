@@ -20,17 +20,23 @@ class MainFragment : Fragment() {
 
         binding.sevenClass.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, SelectA7thGradeTopicFragment())?.commit()
+                ?.replace(R.id.select_fragment, SelectA7thGradeTopicFragment())
+                ?.addToBackStack("SelectA7thGradeTopic()")
+                ?.commit()
         }
 
         binding.eighthClass.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, SelectA8thGradeTopicFragment())?.commit()
+                ?.replace(R.id.select_fragment, SelectA8thGradeTopicFragment())
+                ?.addToBackStack("SelectA8thGradeTopic()")
+                ?.commit()
         }
 
         binding.ninthClass.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, SelectA9thGradeTopicFragment())?.commit()
+                ?.replace(R.id.select_fragment, SelectA9thGradeTopicFragment())
+                ?.addToBackStack("SelectA9thGradeTopic()")
+                ?.commit()
         }
 
         return binding.root

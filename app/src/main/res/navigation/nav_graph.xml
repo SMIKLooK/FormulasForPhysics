@@ -26,11 +26,11 @@
         android:label="fragment_select_a7th_grade_topic"
         tools:layout="@layout/fragment_select_a7th_grade_topic" >
         <action
-            android:id="@+id/action_selectA7thGradeTopicFragment_to_class7FormulasFragment"
-            app:destination="@id/class7FormulasFragment" />
-        <action
             android:id="@+id/action_selectA7thGradeTopicFragment_to_class7LawsFragment"
             app:destination="@id/class7LawsFragment" />
+        <action
+            android:id="@+id/action_selectA7thGradeTopicFragment_to_class7FormulasFragment"
+            app:destination="@id/class7FormulasFragment" />
     </fragment>
     <fragment
         android:id="@+id/selectA8thGradeTopicFragment"
@@ -60,29 +60,17 @@
         android:id="@+id/class7FormulasFragment"
         android:name="com.example.formulasforphysics.formulas.Class7FormulasFragment"
         android:label="fragment_class7_formulas"
-        tools:layout="@layout/fragment_class7_formulas" >
-        <action
-            android:id="@+id/action_class7FormulasFragment_to_selectA7thGradeTopicFragment"
-            app:destination="@id/selectA7thGradeTopicFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_class7_formulas" />
     <fragment
         android:id="@+id/class7LawsFragment"
         android:name="com.example.formulasforphysics.laws.Class7LawsFragment"
         android:label="fragment_class7_laws"
-        tools:layout="@layout/fragment_class7_laws" >
-        <action
-            android:id="@+id/action_class7LawsFragment_to_selectA7thGradeTopicFragment"
-            app:destination="@id/selectA7thGradeTopicFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_class7_laws" />
     <fragment
         android:id="@+id/class8FormulasFragment"
         android:name="com.example.formulasforphysics.formulas.Class8FormulasFragment"
         android:label="fragment_class8_formulas"
-        tools:layout="@layout/fragment_class8_formulas" >
-        <action
-            android:id="@+id/action_class8FormulasFragment_to_selectA8thGradeTopicFragment"
-            app:destination="@id/selectA8thGradeTopicFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_class8_formulas" />
     <fragment
         android:id="@+id/class8LawsFragment"
         android:name="com.example.formulasforphysics.laws.Class8LawsFragment"

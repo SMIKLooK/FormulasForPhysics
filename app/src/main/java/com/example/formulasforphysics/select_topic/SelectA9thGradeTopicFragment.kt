@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.formulasforphysics.MainFragment
 import com.example.formulasforphysics.R
 import com.example.formulasforphysics.databinding.FragmentSelectA9thGradeTopicBinding
 import com.example.formulasforphysics.formulas.Class9FormulasFragment
@@ -21,12 +22,22 @@ class SelectA9thGradeTopicFragment : Fragment() {
 
         binding.formula9Class.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, Class9FormulasFragment())?.commit()
+                ?.addToBackStack("Class9FormulasFragment()")
+                ?.replace(R.id.select_fragment, Class9FormulasFragment())
+                ?.commit()
         }
 
         binding.lawsOfPhysics9.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, Class9LawsFragment())?.commit()
+                ?.replace(R.id.select_fragment, Class9LawsFragment())
+                ?.addToBackStack("Class9LawsFragment()")
+                ?.commit()
+        }
+
+        binding.back9.setOnClickListener {
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.select_fragment, MainFragment())
+                ?.commit()
         }
 
         return binding.root
