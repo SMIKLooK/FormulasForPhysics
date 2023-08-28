@@ -9,15 +9,35 @@ import com.example.formulasforphysics.FormulasFragment
 import com.example.formulasforphysics.R
 import com.example.formulasforphysics.model.Formulas
 import com.zanvent.mathview.MathView
+import io.supercharge.shimmerlayout.ShimmerLayout
 
 class ItemAdapterFormulas(
-    private val context: FormulasFragment,
     private val dataset: List<Formulas>
 ): RecyclerView.Adapter<ItemAdapterFormulas.ViewHolder8Formulas>()
 {
     class ViewHolder8Formulas(private val view: View): RecyclerView.ViewHolder(view) {
-        val mathView: MathView = view.findViewById(R.id.math_view_formulas)
-        val textView: TextView = view.findViewById(R.id.text_view_formulas)
+        private val mathView: MathView = view.findViewById(R.id.math_view_formulas)
+        private val textView: TextView = view.findViewById(R.id.text_view_formulas)
+        private val loader: ShimmerLayout = view.findViewById(R.id.mathLoading)
+        private val formulaContainer: ViewGroup = view.findViewById(R.id.formulaContainer)
+
+        init {
+            mathView.pixelScaleType = MathView.Scale.SCALE_DP
+            mathView.textColor = "#FF0080"
+            mathView.setTextSize(30)
+            mathView.setOnLoadListener {
+                formulaContainer.visibility = View.VISIBLE
+                loader.stopShimmerAnimation()
+            }
+        }
+
+        fun bind(item: Formulas) {
+            mathView.text = ""
+            formulaContainer.visibility = View.GONE
+            loader.startShimmerAnimation()
+            mathView.text = view.context.resources.getString(item.mathViewResourceStringId)
+            textView.text = view.context.resources.getString(item.stringResourceId)
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder8Formulas {
@@ -29,11 +49,6 @@ class ItemAdapterFormulas(
     override fun getItemCount(): Int = dataset.size
 
     override fun onBindViewHolder(holder: ViewHolder8Formulas, position: Int) {
-        val item = dataset[position]
-        holder.mathView.text = context.resources.getString(item.mathViewResourceStringId)
-        holder.mathView.pixelScaleType = MathView.Scale.SCALE_DP
-        holder.mathView.textColor = "#FF0080"
-        holder.mathView.setTextSize(30)
-        holder.textView.text = context.resources.getString(item.stringResourceId)
+        holder.bind(dataset[position])
     }
 }

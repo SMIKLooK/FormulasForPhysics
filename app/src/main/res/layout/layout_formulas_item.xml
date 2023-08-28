@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="wrap_content"
+  android:minHeight="100dp"
+  android:layout_height="wrap_content"
+  android:layout_margin="5dp">
+
+  <io.supercharge.shimmerlayout.ShimmerLayout
+    android:id="@+id/mathLoading"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+    app:shimmer_animation_duration="3000">
+
+    <LinearLayout
+      android:id="@+id/formulaContainer"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:animateLayoutChanges="true"
+      android:orientation="vertical"
+      android:visibility="visible">
+
+      <TextView
+        android:id="@+id/text_view_formulas"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
 
-        <TextView
-            android:id="@+id/text_view_formulas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="5dp"
-            android:textAppearance="?attr/textAppearanceHeadline6"/>
-
-        <com.zanvent.mathview.MathView
-            android:id="@+id/math_view_formulas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
+      <com.example.formulasforphysics.view.CustomMathView
+        android:id="@+id/math_view_formulas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
     </LinearLayout>
+  </io.supercharge.shimmerlayout.ShimmerLayout>
 </com.google.android.material.card.MaterialCardView>

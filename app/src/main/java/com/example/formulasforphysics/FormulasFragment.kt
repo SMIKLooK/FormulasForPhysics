@@ -29,7 +29,7 @@ class FormulasFragment : Fragment() {
         val value = arguments?.getInt("numberF")
         val mData = list[value!!]
 
-        binding.recyclerViewFormulas.adapter = ItemAdapterFormulas(this, mData)
+        binding.recyclerViewFormulas.adapter = ItemAdapterFormulas(mData)
 
         return binding.root
     }
