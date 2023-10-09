@@ -201,4 +201,8 @@ g=9,81.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="formelas">формулы</string>
     <string name="laws">законы</string>
+    <string name="class_10">10 класс</string>
+    <string name="class_11">11 класс</string>
+    <string name="middle_class_navigation">средние классы</string>
+    <string name="top_class_navigation">старшие классы</string>
 </resources>

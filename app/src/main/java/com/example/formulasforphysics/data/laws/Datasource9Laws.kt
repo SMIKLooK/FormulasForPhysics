@@ -4,8 +4,8 @@ import com.example.formulasforphysics.R
 import com.example.formulasforphysics.model.Laws
 
 class Datasource9Laws{
-    fun loadLaws9(): List<Laws>{
-        return listOf<Laws>(
+    fun loadLaws9(): MutableList<Laws>{
+        return mutableListOf(
             Laws(R.string.laws90t, R.string.laws90),
             Laws(R.string.laws91t, R.string.laws91),
             Laws(R.string.laws92t, R.string.laws92),

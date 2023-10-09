@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondFragment">
+    tools:context=".TopClassFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,50 +19,36 @@
             android:text="@string/select_a_class_text"
             android:textAppearance="?attr/textAppearanceHeadline6"
             android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@id/seven_class"
+            app:layout_constraintBottom_toTopOf="@id/ten_class"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/seven_class"
+            android:id="@+id/ten_class"
             android:layout_width="120dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/round_button"
-            android:text="@string/class_7"
+            android:text="@string/class_10"
             android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@id/eighth_class"
+            app:layout_constraintBottom_toTopOf="@id/eleven_class"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/select_a_class" />
+            app:layout_constraintTop_toBottomOf="@id/select_a_class" />
 
         <Button
-            android:id="@+id/eighth_class"
-            android:layout_width="120dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/round_button"
-            android:text="@string/class_8"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@id/ninth_class"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/seven_class" />
-
-        <Button
-            android:id="@+id/ninth_class"
+            android:id="@+id/eleven_class"
             android:layout_width="120dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="250dp"
             android:background="@drawable/round_button"
-            android:text="@string/class_9"
+            android:text="@string/class_11"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/eighth_class" />
+            app:layout_constraintTop_toBottomOf="@id/ten_class" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </FrameLayout>

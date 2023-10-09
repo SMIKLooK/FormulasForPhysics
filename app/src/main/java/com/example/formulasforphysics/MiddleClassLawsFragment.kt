@@ -5,17 +5,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.formulasforphysics.databinding.FragmentThirdBinding
+import com.example.formulasforphysics.databinding.FragmentMiddleClassLawsBinding
 
-class ThirdFragment : Fragment() {
-    private lateinit var binding: FragmentThirdBinding
+class MiddleClassLawsFragment : Fragment() {
+    private lateinit var binding: FragmentMiddleClassLawsBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentThirdBinding.inflate(inflater)
+        binding = FragmentMiddleClassLawsBinding.inflate(inflater)
 
-        binding.sevenClass.setOnClickListener {
+        binding.sevenClass?.setOnClickListener {
             val bundle = Bundle()
             bundle.putInt("numberL", 0)
             val lawsFragment = LawsFragment()
@@ -27,7 +28,7 @@ class ThirdFragment : Fragment() {
                 ?.commit()
         }
 
-        binding.eighthClass.setOnClickListener {
+        binding.eighthClass?.setOnClickListener {
             val bundle = Bundle()
             bundle.putInt("numberL", 1)
             val lawsFragment = LawsFragment()
@@ -39,7 +40,7 @@ class ThirdFragment : Fragment() {
                 ?.commit()
         }
 
-        binding.ninthClass.setOnClickListener {
+        binding.ninthClass?.setOnClickListener {
             val bundle = Bundle()
             bundle.putInt("numberL", 2)
             val lawsFragment = LawsFragment()
