@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.formulasforphysics.data.app.bundleKeyLaws
+import com.example.formulasforphysics.data.app.fragmentBackStackLaws
 import com.example.formulasforphysics.databinding.FragmentMiddleClassLawsBinding
 
 class MiddleClassLawsFragment : Fragment() {
@@ -16,40 +18,19 @@ class MiddleClassLawsFragment : Fragment() {
     ): View {
         binding = FragmentMiddleClassLawsBinding.inflate(inflater)
 
-        binding.sevenClass?.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberL", 0)
-            val lawsFragment = LawsFragment()
-            lawsFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, lawsFragment)
-                ?.addToBackStack("SelectA7thGradeTopic()")
-                ?.commit()
+        binding.sevenClass.setOnClickListener {
+            ButtonOnClick(bundleKeyLaws, 0, fragmentBackStackLaws)
+                .startFragmentFromFragment(LawsFragment(), activity)
         }
 
-        binding.eighthClass?.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberL", 1)
-            val lawsFragment = LawsFragment()
-            lawsFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, lawsFragment)
-                ?.addToBackStack("SelectA8thGradeTopic()")
-                ?.commit()
+        binding.eighthClass.setOnClickListener {
+            ButtonOnClick(bundleKeyLaws, 1, fragmentBackStackLaws)
+                .startFragmentFromFragment(LawsFragment(), activity)
         }
 
-        binding.ninthClass?.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberL", 2)
-            val lawsFragment = LawsFragment()
-            lawsFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, lawsFragment)
-                ?.addToBackStack("SelectA9thGradeTopic()")
-                ?.commit()
+        binding.ninthClass.setOnClickListener {
+            ButtonOnClick(bundleKeyLaws, 2, fragmentBackStackLaws)
+                .startFragmentFromFragment(LawsFragment(), activity)
         }
 
         return binding.root

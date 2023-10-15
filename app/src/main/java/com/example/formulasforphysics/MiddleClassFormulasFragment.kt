@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.formulasforphysics.data.app.bundleKeyFormulas
+import com.example.formulasforphysics.data.app.fragmentBackStackFormulas
 import com.example.formulasforphysics.databinding.FragmentMiddleClassBinding
 
 class MiddleClassFormulasFragment : Fragment() {
@@ -17,39 +19,18 @@ class MiddleClassFormulasFragment : Fragment() {
         binding = FragmentMiddleClassBinding.inflate(inflater)
 
         binding.sevenClass.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberF", 0)
-            val formulasFragment = FormulasFragment()
-            formulasFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, formulasFragment)
-                ?.addToBackStack("FormulasFragment")
-                ?.commit()
+            ButtonOnClick(bundleKeyFormulas, 0, fragmentBackStackFormulas)
+                .startFragmentFromFragment(FormulasFragment(), activity)
         }
 
         binding.eighthClass.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberF", 1)
-            val formulasFragment = FormulasFragment()
-            formulasFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, formulasFragment)
-                ?.addToBackStack("FormulasFragment")
-                ?.commit()
+            ButtonOnClick(bundleKeyFormulas, 1, fragmentBackStackFormulas)
+                .startFragmentFromFragment(FormulasFragment(), activity)
         }
 
         binding.ninthClass.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("numberF", 2)
-            val formulasFragment = FormulasFragment()
-            formulasFragment.arguments = bundle
-
-            activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.select_fragment, formulasFragment)
-                ?.addToBackStack("FormulasFragment")
-                ?.commit()
+            ButtonOnClick(bundleKeyFormulas, 2, fragmentBackStackFormulas)
+                .startFragmentFromFragment(FormulasFragment(), activity)
         }
         return binding.root
     }
