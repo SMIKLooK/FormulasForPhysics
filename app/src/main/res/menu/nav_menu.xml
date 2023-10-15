@@ -2,10 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/middle_class"
-        android:title="@string/middle_class_navigation">
-    </item>
+        android:title="@string/middle_class_navigation"/>
     <item
         android:id="@+id/top_class"
-        android:title="@string/top_class_navigation">
-    </item>
+        android:title="@string/top_class_navigation"/>
 </menu>
